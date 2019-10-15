@@ -47,3 +47,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.listen(app.get('port'), () => {
     console.log('pilot on air', app.get('port'));
 });
+
+// command: "git status" muestra modificaciones específicas al proyecto.
+// command: "git add ." añade todas las modificaciones mostradas.
